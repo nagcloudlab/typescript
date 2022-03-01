@@ -1,0 +1,112 @@
+
+------------------------------------------------------------------
+why we need javascript language?
+------------------------------------------------------------------
+
+ => browser based UI applications
+ => mobile applications 
+ => native/desktop applications 
+ => server-side applications 
+
+
+------------------------------------------------------------------
+javascript features
+------------------------------------------------------------------
+
+=> flexibility
+
+    - dynamic
+    - FP
+
+=> by default, single-threaded process ,
+   but can execute concurrent actions due to non-blocking/async IO     
+
+   
+------------------------------------------------------------------
+javascript standarnd
+------------------------------------------------------------------
+
+=> ECMAScript spec
+
+
+
+------------------------------------------------------------------
+How to run javascript program ?
+------------------------------------------------------------------
+
+=> using javascript runtime/engine/interpretor
+
+
+client ( browser ) envi :
+--------------------------
+
+    a. chrome  => v8 
+    b. firefox => rhino / spider monkey
+    c. IE/Edge => chakra
+    d. Safari  => Nitro
+
+other envi :
+--------------------------
+
+    a. Node.js => v8 
+    b. JVM     => rhino / nashorn
+    .........
+
+-----------------------------------
+Naming conventions
+-----------------------------------
+
+keywords ==> lower-case
+Types ( class ) ==> pascal-case : A____B___C___  e.g JavaEmployee
+variables/functions ==> camel-case : ____B____C____ e.g studName, addNumbers()
+constant number values     ==> upper-case , e.g const PI=3.14  
+
+
+------------------------------------------------------------------
+Limitations with javascript language
+------------------------------------------------------------------
+
+=> being dynamic
+Solution:
+
+    => Typescript  = javascript + types
+
+------------------------------------------------------------------
+
+
+------------------------------------------------------------------
+//  core javascript : level-1 topics
+------------------------------------------------------------------
+
+ => basic data types
+ => literal-style objects 
+ => scopes / execution-context  ( how code execuytes )
+ => FP ( imp topic )
+ => OOP  ( less imp )
+ => data structures ( list/array , set ( es6 )  , map ( es6 ))
+
+------------------------------------------------------------------
+//  javascript : level-2 topics
+------------------------------------------------------------------
+
+=> Es6 New-syntax & New APIs 
+    => spread operators
+    => de-structuring
+    => symbols
+    => iterables & generator functions`
+    => for-of loop
+    ........
+=> modules
+=> package management tools : NPM / YARN
+
+
+------------------------------------------------------------------
+//  javascript : level-3 topics
+------------------------------------------------------------------
+
+Async/Non-blocking Programming
+-----------------------------
+
+=> promise api
+=> reactive programming with javascript
+=> Unit-Testing  : JEST 
