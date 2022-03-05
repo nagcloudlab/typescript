@@ -70,4 +70,38 @@ for (let num of numGenerator) {
 
 
 
+let lunchBox = {
+    _items: [
+        "veg1", "veg2", "veg3"
+    ],
+    [Symbol.iterator]: function () {
+        let k = 0;
+        let self = this;
+        return {
+            next() {
+                let value = k < self._items.length ? self._items[k] : undefined
+                let done = k < self._items.length ? false : true
+                k++;
+                return { value, done }
+            }
+        }
+    }
+}
+
+
+
+// for-of-loop
+for (let item of lunchBox) {
+    console.log(item)
+}
+
+// spread
+let menu = [...lunchBox]
+
+// destructuring
+let [i1, i2, i3] = lunchBox
+console.log(i1, i2, i3)
+
+
+
 

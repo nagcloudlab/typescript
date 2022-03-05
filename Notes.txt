@@ -110,3 +110,25 @@ Async/Non-blocking Programming
 => promise api
 => reactive programming with javascript
 => Unit-Testing  : JEST 
+
+
+------------------------------------------------------------------
+
+Unit-Testing Frameworks
+
+- Jasmine
+- mocha
+- jest
+
+------------------------------------------------------------------
+
+
+jasmine 
+
+    - to write test-cases
+
+ karma
+
+    - to run test cases
+
+------------------------------------------------------------------
