@@ -33,7 +33,7 @@ console.log("---------------------------")
  *
  *  ==> by default , javascript runtime has one global-scope
  *
- *  ==> eacy function call also creates new-scope,
+ *  ==> each function call also creates new-scope,
  *      which is child of in which scope that function declared/created
  *
  * -------------------------------------------------------------
